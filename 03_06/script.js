@@ -22,3 +22,10 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+console.log("The backpack's colour:", backpack.color);
+console.log("This is the left straplength:", backpack.strapLength.left);
+
+console.log("This is Bracket notation at work:", backpack["lidOpen"]);
+
+var query = "volume";
+console.log("This is using backet notation with a query:", backpack[query]);
