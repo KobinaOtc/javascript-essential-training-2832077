@@ -37,4 +37,22 @@ class Backpack {
   }
 }
 
-export default Backpack;
+class HikingBackpack extends Backpack {
+  constructor(
+    name,
+    volume,
+    color,
+    pocketNum,
+    strapLengthL,
+    strapLengthR,
+    lidOpen,
+    hydrationCapacity
+  ) {
+    // Initialize the parent class properties
+    super(name, volume, color, pocketNum, strapLengthL, strapLengthR, lidOpen);
+    // New property specific to HikingBackpack
+    this.hydrationCapacity = hydrationCapacity;
+  }
+}
+
+export default { Backpack, HikingBackpack };
