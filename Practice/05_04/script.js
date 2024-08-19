@@ -76,7 +76,7 @@ const content = `
                 <span>${janSport.lidStatus}</span>
             </li>
         </ul>
-        <button id="first-bag-btn" class="lid-toggle" onclick="lidToggler()">Open lid</button>
+        <button id="first-bag-btn" class="lid-toggle" onclick="lidToggler">Open lid</button>
     </article>
     <article class="backpack" id="pack02">
         <figure class="backpack__image">
